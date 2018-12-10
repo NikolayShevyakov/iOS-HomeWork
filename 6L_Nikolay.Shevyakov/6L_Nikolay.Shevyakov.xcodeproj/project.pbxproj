@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		B0FAB32221BE7A0200869CF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAB32121BE7A0200869CF1 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B0FAB31C21BE7A0200869CF1 /* CopyFiles */ = {
+=======
+		B0FAB33E21BE7B9C00869CF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAB33D21BE7B9C00869CF1 /* main.swift */; };
+		B0FAB34B21BE7C6200869CF1 /* Weightable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAB34A21BE7C6200869CF1 /* Weightable.swift */; };
+		B0FAB34D21BE7C6F00869CF1 /* WareHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAB34C21BE7C6F00869CF1 /* WareHouse.swift */; };
+		B0FAB34F21BE7C7B00869CF1 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAB34E21BE7C7B00869CF1 /* Generics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0FAB33821BE7B9C00869CF1 /* CopyFiles */ = {
+>>>>>>> 6_lesson_NShevyakov
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +34,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		B0FAB31E21BE7A0200869CF1 /* 6L_Nikolay.Shevyakov */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6L_Nikolay.Shevyakov; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FAB32121BE7A0200869CF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B0FAB31B21BE7A0200869CF1 /* Frameworks */ = {
+=======
+		B0FAB33A21BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6L_Nikolay.Shevyakov; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FAB33D21BE7B9C00869CF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B0FAB34A21BE7C6200869CF1 /* Weightable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weightable.swift; sourceTree = "<group>"; };
+		B0FAB34C21BE7C6F00869CF1 /* WareHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WareHouse.swift; sourceTree = "<group>"; };
+		B0FAB34E21BE7C7B00869CF1 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FAB33721BE7B9C00869CF1 /* Frameworks */ = {
+>>>>>>> 6_lesson_NShevyakov
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +61,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		B0FAB31521BE7A0200869CF1 = {
 			isa = PBXGroup;
 			children = (
@@ -50,18 +74,43 @@
 			isa = PBXGroup;
 			children = (
 				B0FAB31E21BE7A0200869CF1 /* 6L_Nikolay.Shevyakov */,
+=======
+		B0FAB33121BE7B9C00869CF1 = {
+			isa = PBXGroup;
+			children = (
+				B0FAB33C21BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */,
+				B0FAB33B21BE7B9C00869CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FAB33B21BE7B9C00869CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FAB33A21BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		B0FAB32021BE7A0200869CF1 /* 6L_Nikolay.Shevyakov */ = {
 			isa = PBXGroup;
 			children = (
 				B0FAB32121BE7A0200869CF1 /* main.swift */,
+=======
+		B0FAB33C21BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */ = {
+			isa = PBXGroup;
+			children = (
+				B0FAB34621BE7BD300869CF1 /* Protocols */,
+				B0FAB34421BE7BBE00869CF1 /* Queue */,
+				B0FAB33D21BE7B9C00869CF1 /* main.swift */,
+				B0FAB34E21BE7C7B00869CF1 /* Generics.swift */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 			path = 6L_Nikolay.Shevyakov;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -72,6 +121,34 @@
 				B0FAB31A21BE7A0200869CF1 /* Sources */,
 				B0FAB31B21BE7A0200869CF1 /* Frameworks */,
 				B0FAB31C21BE7A0200869CF1 /* CopyFiles */,
+=======
+		B0FAB34421BE7BBE00869CF1 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				B0FAB34C21BE7C6F00869CF1 /* WareHouse.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		B0FAB34621BE7BD300869CF1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B0FAB34A21BE7C6200869CF1 /* Weightable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FAB33921BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FAB34121BE7B9C00869CF1 /* Build configuration list for PBXNativeTarget "6L_Nikolay.Shevyakov" */;
+			buildPhases = (
+				B0FAB33621BE7B9C00869CF1 /* Sources */,
+				B0FAB33721BE7B9C00869CF1 /* Frameworks */,
+				B0FAB33821BE7B9C00869CF1 /* CopyFiles */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 			buildRules = (
 			);
@@ -79,54 +156,96 @@
 			);
 			name = 6L_Nikolay.Shevyakov;
 			productName = 6L_Nikolay.Shevyakov;
+<<<<<<< HEAD
 			productReference = B0FAB31E21BE7A0200869CF1 /* 6L_Nikolay.Shevyakov */;
+=======
+			productReference = B0FAB33A21BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */;
+>>>>>>> 6_lesson_NShevyakov
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		B0FAB31621BE7A0200869CF1 /* Project object */ = {
+=======
+		B0FAB33221BE7B9C00869CF1 /* Project object */ = {
+>>>>>>> 6_lesson_NShevyakov
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = jasno;
 				TargetAttributes = {
+<<<<<<< HEAD
 					B0FAB31D21BE7A0200869CF1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
 			buildConfigurationList = B0FAB31921BE7A0200869CF1 /* Build configuration list for PBXProject "6L_Nikolay.Shevyakov" */;
+=======
+					B0FAB33921BE7B9C00869CF1 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = B0FAB33521BE7B9C00869CF1 /* Build configuration list for PBXProject "6L_Nikolay.Shevyakov" */;
+>>>>>>> 6_lesson_NShevyakov
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
+<<<<<<< HEAD
 			mainGroup = B0FAB31521BE7A0200869CF1;
 			productRefGroup = B0FAB31F21BE7A0200869CF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B0FAB31D21BE7A0200869CF1 /* 6L_Nikolay.Shevyakov */,
+=======
+			mainGroup = B0FAB33121BE7B9C00869CF1;
+			productRefGroup = B0FAB33B21BE7B9C00869CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FAB33921BE7B9C00869CF1 /* 6L_Nikolay.Shevyakov */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		B0FAB31A21BE7A0200869CF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0FAB32221BE7A0200869CF1 /* main.swift in Sources */,
+=======
+		B0FAB33621BE7B9C00869CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FAB34D21BE7C6F00869CF1 /* WareHouse.swift in Sources */,
+				B0FAB34F21BE7C7B00869CF1 /* Generics.swift in Sources */,
+				B0FAB33E21BE7B9C00869CF1 /* main.swift in Sources */,
+				B0FAB34B21BE7C6200869CF1 /* Weightable.swift in Sources */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		B0FAB32321BE7A0200869CF1 /* Debug */ = {
+=======
+		B0FAB33F21BE7B9C00869CF1 /* Debug */ = {
+>>>>>>> 6_lesson_NShevyakov
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +306,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		B0FAB32421BE7A0200869CF1 /* Release */ = {
+=======
+		B0FAB34021BE7B9C00869CF1 /* Release */ = {
+>>>>>>> 6_lesson_NShevyakov
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,19 +364,47 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		B0FAB32621BE7A0200869CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+=======
+		B0FAB34221BE7B9C00869CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+>>>>>>> 6_lesson_NShevyakov
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		B0FAB32721BE7A0200869CF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+=======
+		B0FAB34321BE7B9C00869CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+>>>>>>> 6_lesson_NShevyakov
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -262,25 +413,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		B0FAB31921BE7A0200869CF1 /* Build configuration list for PBXProject "6L_Nikolay.Shevyakov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0FAB32321BE7A0200869CF1 /* Debug */,
 				B0FAB32421BE7A0200869CF1 /* Release */,
+=======
+		B0FAB33521BE7B9C00869CF1 /* Build configuration list for PBXProject "6L_Nikolay.Shevyakov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FAB33F21BE7B9C00869CF1 /* Debug */,
+				B0FAB34021BE7B9C00869CF1 /* Release */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		B0FAB32521BE7A0200869CF1 /* Build configuration list for PBXNativeTarget "6L_Nikolay.Shevyakov" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0FAB32621BE7A0200869CF1 /* Debug */,
 				B0FAB32721BE7A0200869CF1 /* Release */,
+=======
+		B0FAB34121BE7B9C00869CF1 /* Build configuration list for PBXNativeTarget "6L_Nikolay.Shevyakov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FAB34221BE7B9C00869CF1 /* Debug */,
+				B0FAB34321BE7B9C00869CF1 /* Release */,
+>>>>>>> 6_lesson_NShevyakov
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = B0FAB31621BE7A0200869CF1 /* Project object */;
+=======
+	rootObject = B0FAB33221BE7B9C00869CF1 /* Project object */;
+>>>>>>> 6_lesson_NShevyakov
 }
