@@ -12,6 +12,10 @@
 
 import Foundation
 
+<<<<<<< HEAD
+print("Hello, World!")
+
+=======
 /*
  1. Реализовать свой тип коллекции «очередь» (queue) c использованием дженериков.
  2. Добавить ему несколько методов высшего порядка, полезных для этой коллекции (пример:
@@ -50,3 +54,4 @@ let filteredWareHouse = wareHouse.filter(array: wareHouse.elements) { (i1: WareH
 }
 
 print(filteredWareHouse)
+>>>>>>> 6_lesson_NShevyakov

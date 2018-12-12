@@ -11,6 +11,8 @@
 //
 
 import Foundation
+<<<<<<< HEAD
+=======
 
 class WareHouse: Weightable{
     
@@ -34,4 +36,4 @@ extension WareHouse : CustomStringConvertible{
         return "Коробка Ш: \(self.width) В: \(self.height) Д: \(self.length) Вес: \(self.weight)"
     }
 }
-
+>>>>>>> 6_lesson_NShevyakov

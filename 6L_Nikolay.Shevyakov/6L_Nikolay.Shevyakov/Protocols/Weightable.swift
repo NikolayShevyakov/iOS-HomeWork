@@ -14,7 +14,10 @@
 //
 
 import Foundation
+<<<<<<< HEAD
+=======
 
 protocol Weightable {
     var weight: UInt {get set}
 }
+>>>>>>> 6_lesson_NShevyakov
