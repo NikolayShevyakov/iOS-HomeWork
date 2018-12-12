@@ -11,8 +11,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
-=======
 
 struct Queue<T: Weightable>: CustomStringConvertible {
     internal var elements:[T] = []  //Насколько безопасно использовать данный вид доступа? Или как иначе обратиться к массиву очереди?
@@ -56,5 +54,3 @@ struct Queue<T: Weightable>: CustomStringConvertible {
     }
 }
 
-
->>>>>>> 6_lesson_NShevyakov
