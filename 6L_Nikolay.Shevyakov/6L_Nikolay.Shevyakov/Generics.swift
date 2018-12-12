@@ -2,17 +2,11 @@
 //  Generics.swift
 //  6L_Nikolay.Shevyakov
 //
-<<<<<<< HEAD
-//  Created by Nikolay Shevyakov on 10.12.2018.
-=======
-//  Created by Nikolay Shevyakov on 07.12.2018.
->>>>>>> 6_lesson_NShevyakov
+//  Created by Nikolay Shevyakov on 12.12.2018.
 //  Copyright © 2018 jasno. All rights reserved.
 //
 
 import Foundation
-<<<<<<< HEAD
-=======
 
 struct Queue<T: Weightable>: CustomStringConvertible {
     internal var elements:[T] = []  //Насколько безопасно использовать данный вид доступа? Или как иначе обратиться к массиву очереди?
@@ -55,6 +49,3 @@ struct Queue<T: Weightable>: CustomStringConvertible {
         return weight
     }
 }
-
-
->>>>>>> 6_lesson_NShevyakov

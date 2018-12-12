@@ -2,20 +2,12 @@
 //  main.swift
 //  6L_Nikolay.Shevyakov
 //
-<<<<<<< HEAD
-//  Created by Nikolay Shevyakov on 10.12.2018.
-=======
-//  Created by Nikolay Shevyakov on 07.12.2018.
->>>>>>> 6_lesson_NShevyakov
+//  Created by Nikolay Shevyakov on 12.12.2018.
 //  Copyright © 2018 jasno. All rights reserved.
 //
 
 import Foundation
 
-<<<<<<< HEAD
-print("Hello, World!")
-
-=======
 /*
  1. Реализовать свой тип коллекции «очередь» (queue) c использованием дженериков.
  2. Добавить ему несколько методов высшего порядка, полезных для этой коллекции (пример:
@@ -54,4 +46,3 @@ let filteredWareHouse = wareHouse.filter(array: wareHouse.elements) { (i1: WareH
 }
 
 print(filteredWareHouse)
->>>>>>> 6_lesson_NShevyakov

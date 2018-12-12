@@ -2,17 +2,11 @@
 //  WareHouse.swift
 //  6L_Nikolay.Shevyakov
 //
-<<<<<<< HEAD
-//  Created by Nikolay Shevyakov on 10.12.2018.
-=======
-//  Created by Nikolay Shevyakov on 07.12.2018.
->>>>>>> 6_lesson_NShevyakov
+//  Created by Nikolay Shevyakov on 12.12.2018.
 //  Copyright © 2018 jasno. All rights reserved.
 //
 
 import Foundation
-<<<<<<< HEAD
-=======
 
 class WareHouse: Weightable{
     
@@ -36,4 +30,3 @@ extension WareHouse : CustomStringConvertible{
         return "Коробка Ш: \(self.width) В: \(self.height) Д: \(self.length) Вес: \(self.weight)"
     }
 }
->>>>>>> 6_lesson_NShevyakov
