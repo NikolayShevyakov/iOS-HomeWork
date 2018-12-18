@@ -1,0 +1,28 @@
+//
+//  GameViewController.swift
+//  L8_Nikolay.Shevyakov
+//
+//  Created by Nikolay Shevyakov on 14.12.2018.
+//  Copyright © 2018 jasno. All rights reserved.
+//
+
+import UIKit
+import SpriteKit
+import GameplayKit
+
+class GameViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let scene = GameScene(size: self.view.bounds.size)
+        
+        let skView = view as! SKView
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.ignoresSiblingOrder = true
+        
+        scene.scaleMode = .resizeFill
+        skView.presentScene(scene)
+    }
+}
